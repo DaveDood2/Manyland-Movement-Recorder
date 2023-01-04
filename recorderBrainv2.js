@@ -1,4 +1,5 @@
 /* Code by: Dave Dood
+   See the full project at: github.com/DaveDood2/Manyland-Movement-Recorder
    How to use it:
 1. Use the web browser version of Manyland (I'm sorry Steam/mobile players :<)
 2. Equip this brain
