@@ -2,6 +2,7 @@
 An in-game recorder that uses javascript code to turn your character's movements into Dynamic animations. Useful for creating fake players, tutorials, or just for fun!
 
 Click the image below to see a video example of how I used it to create an animation of a Hamsterdog diving into a pool.
+
 [![The Recorder in Action](http://img.youtube.com/vi/7JxhQfU-L00/0.jpg)](http://www.youtube.com/watch?v=7JxhQfU-L00)
 
 # How to use
