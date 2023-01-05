@@ -7,7 +7,19 @@ Click the image below to see a video example of how I used it to create an anima
 # How to use
 1. Open the browser version of Manyland, as javascript doesn't play nice with the Steam version.
 2. Go to someplace you can edit.
-3. 
+3. Hit **Create+** in the top-right, hit `Type...`, `Automation`, then hit `Change` until the type changes to brain.
+4. Hit the three horizontal line `≡` button at the top to open the brain's code menu.
+5. Paste the contents of `recorderBrainv2.js` into the code menu. Hit **Ok**, then the green checkmark `✔️` in the bottom-right to save the brain.
+6. Open your browser's debug menu. This is usually done with **F12** for most browsers.
+7. Equip the brain you made from the right-menu. You should see some text above your character that says something like **Recording in...**.
+8. After ~3 seconds, the brain should start to record your movements. Try moving around!
+9. Once you see **Finished Recording!**, the brain will have output dynamic code to the console window in the debug menu.
+10. Copy the parts of the output that is in all caps, like `0S: CELL 1 SHOW  +2.5-+.1:CELLS POSITION 0 0` (see the video above for a demonstration).
+11. Drag an existing body you made onto the **Create+** button to edit it.
+12. Click **Body**, then change the type to **Dynamic**. Hit the three horizontal line `≡` button to open the dynamic's code, paste in the code you got from step 10.
+13. Hit **Ok**, then the green checkmark `✔️` in the bottom-right to save the dynamic.
+14. Place the dynamic down where you started the animation (or wherever) and watch it move! Voila!
+
 
 # Limitations/Troubleshooting
 In Manyland, Dynamics have the following limitations:
