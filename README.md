@@ -12,11 +12,11 @@ Click the image below to see a video example of how I used it to create an anima
 # Limitations/Troubleshooting
 In Manyland, Dynamics have the following limitations:
 1. The total number of characters in the code cannot exceed 5000 characters.
-⋅⋅* This means some complicated animations might get cut short.
-⋅⋅* Animations where the character changes their state a lot (e.g., they keep flipping left/right or go from standing still to moving to standing again several times in a short span of time) are prone to hit this limit.
+  * This means some complicated animations might get cut short.
+  * Animations where the character changes their state a lot (e.g., they keep flipping left/right or go from standing still to moving to standing again several times in a short span of time) are prone to hit this limit.
 2. Cells cannot travel too far from the starting point of the dynamic.
-⋅⋅* If your animation is still moving but it looks like it got stuck on something invisible, this may be why.
-⋅⋅* Try adjusting where you're starting the animation from, if this happens.
+  * If your animation is still moving but it looks like it got stuck on something invisible, this may be why.
+  * Try adjusting where you're starting the animation from, if this happens.
 3. Animations cannot play longer than 15 seconds.
-⋅⋅* You may need to do some experimentation and rerecords to get your animation to what you want it to be.
-⋅⋅* Also try manually editing the end of the animation to get it to loop properly, such as with ```+0-+.1:CELLS POSITION 0 0``` at the very end to make the character go back to the start of the animation before it repeats.
+  * You may need to do some experimentation and rerecords to get your animation to what you want it to be.
+  * Also try manually editing the end of the animation to get it to loop properly, such as with ```+0-+.1:CELLS POSITION 0 0``` at the very end to make the character go back to the start of the animation before it repeats.
